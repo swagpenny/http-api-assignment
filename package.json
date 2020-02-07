@@ -1,0 +1,25 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"test complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swagpenny/http-api-assignment.git"
+  },
+  "author": "Penny Wang",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/swagpenny/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/swagpenny/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
